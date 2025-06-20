@@ -48,12 +48,13 @@ export default function Home() {
 
       <div className="container d-flex align-items-center gap-3 " ref={latestRef}>
         <h2 className="fw-bold mb-0" style={{ marginTop: '7rem' }} >Latest Articles</h2>
+       </div>
         <div style={{
           height: '3px',
           flexGrow: 1,
           background: 'linear-gradient(to left, black, #67C9CF)',
           borderRadius: '10px'
-        }}></div>
+        }}>
       </div>
 
       {/* Latest Posts Section */}
