@@ -33,7 +33,7 @@ export default function FeaturedPost() {
       <div className="row g-4">
         {randomBlogs.map((elem) => (
           <div className="col-12 col-sm-6 col-lg-6 d-flex" key={elem._id}>
-            {console.log("BURRRRRRRRRRRRRRRRRRRRRRRRRRRR", elem)}
+            
             <Link
               to={`/blog/${elem._id}`}
               className="text-decoration-none text-dark w-100"
